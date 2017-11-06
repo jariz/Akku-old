@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "CNanomsg",
+        "repositoryURL": "https://github.com/autozimu/CNanomsg.git",
+        "state": {
+          "branch": null,
+          "revision": "8184297fa0d168300460cce58bfa6fc9d8fb8986",
+          "version": "0.3.0"
+        }
+      },
+      {
+        "package": "Nanomsg",
+        "repositoryURL": "https://github.com/autozimu/Nanomsg.swift.git",
+        "state": {
+          "branch": null,
+          "revision": "a427d8bf1c02cec0dc6778412dbca513487d46c1",
+          "version": "0.4.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
