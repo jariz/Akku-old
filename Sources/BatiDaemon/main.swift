@@ -1,55 +1,44 @@
 import Nanomsg
-import IOBluetooth
+import Foundation
 
-func start () throws {
-//    guard getuid() == 0 else {
-//        print("Error, should be ran as root")
-//        return
-//    }
+if getuid() != 0 {
+    print("Error, should be ran as root")
+    exit(1)
+}
+
+class BattiDaemon {
+    var packetLogger: PacketLogger
+    var sock: Socket
     
-    RunLoop.main.perform {
+    func batteryChange (percentage: Int, address: String) throws {
+        print("battery change! \(percentage)% (\(address))")
+        try sock.send(address + "\t" + String(percentage))
+    }
+    
+    init () {
         do {
+            print("Starting PL...")
+            packetLogger = PacketLogger()
+            
             print("Starting socket...")
-            let sock = try Socket(.PULL)
-            try sock.bind("ipc:///tmp/bati-devices.ipc")
-            while(true) {
-                let address: String = try sock.recv()
-                if let device = IOBluetoothDevice.init(addressString: address) {
-                    guard device.isConnected() && device.isHandsFreeDevice else {
-                        print("Sanity check failed: attempted to connect to a device that was either not connected or not a handsfree device")
-                        continue
-                    }
-                    var query = DeviceQuery(device)
-                }
-            }
+            sock = try Socket(.PUSH)
+            try sock.bind("ipc:///tmp/battid.ipc")
         }
         catch {
             print("Fatal error: \(error)")
             exit(1)
         }
     }
-
-    DispatchQueue.global(qos: .background).async {
-        do {
-            print("Push socket opening...")
-            let sock = try Socket(.PUSH)
-            try sock.connect("ipc:///tmp/bati-devices.ipc")
-            while true {
-                for device: IOBluetoothDevice in IOBluetoothDevice.pairedDevices() as! [IOBluetoothDevice] {
-                    guard device.isConnected() && device.isHandsFreeDevice else {
-                        continue
-                    }
-                    try sock.send(device.addressString)
-                }
-                sleep(9999)
-            }
-        } catch {
-            print("Fatal error (in push loop): \(error)")
-            exit(1)
-        }
-    }
-    
-    RunLoop.main.run()
 }
 
-try start()
+
+var daemon = BattiDaemon()
+if #available(OSX 10.12, *) {
+    RunLoop.main.perform {
+        daemon.packetLogger.startReading()
+    }
+} else {
+    print("todo: support < 10.12")
+}
+
+RunLoop.main.run()

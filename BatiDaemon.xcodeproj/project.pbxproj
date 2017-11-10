@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		497DC27D1FAE34A800FE51C5 /* DeviceQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC27C1FAE34A800FE51C5 /* DeviceQuery.swift */; };
-		497DC27F1FAF592600FE51C5 /* IOReturnToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC27E1FAF592600FE51C5 /* IOReturnToString.swift */; };
-		497DC29D1FAF875300FE51C5 /* PacketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC29C1FAF875300FE51C5 /* PacketLogger.swift */; };
-		497DC29F1FAFAB6800FE51C5 /* parseATCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497DC29E1FAFAB6800FE51C5 /* parseATCommand.swift */; };
-		OBJ_35 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_41 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Package.swift */; };
-		OBJ_47 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* main.swift */; };
-		OBJ_49 /* Nanomsg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nanomsg::Nanomsg::Product" /* Nanomsg.framework */; };
-		OBJ_56 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Constants.swift */; };
-		OBJ_57 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Domain.swift */; };
-		OBJ_58 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Flags.swift */; };
-		OBJ_59 /* NanomsgError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* NanomsgError.swift */; };
-		OBJ_60 /* NanomsgSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* NanomsgSerializable.swift */; };
-		OBJ_61 /* Proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Proto.swift */; };
-		OBJ_62 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Socket.swift */; };
-		OBJ_63 /* SocketOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* SocketOption.swift */; };
-		OBJ_64 /* StringNanomsgSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* StringNanomsgSerializable.swift */; };
-		OBJ_65 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Transport.swift */; };
-		OBJ_66 /* WSMsgType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* WSMsgType.swift */; };
-		OBJ_67 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* util.swift */; };
+		OBJ_38 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_44 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_29 /* Package.swift */; };
+		OBJ_50 /* IOReturnToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* IOReturnToString.swift */; };
+		OBJ_51 /* PacketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* PacketLogger.swift */; };
+		OBJ_52 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* main.swift */; };
+		OBJ_53 /* parseATCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* parseATCommand.swift */; };
+		OBJ_55 /* Nanomsg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "Nanomsg::Nanomsg::Product" /* Nanomsg.framework */; };
+		OBJ_62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Constants.swift */; };
+		OBJ_63 /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Domain.swift */; };
+		OBJ_64 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Flags.swift */; };
+		OBJ_65 /* NanomsgError.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* NanomsgError.swift */; };
+		OBJ_66 /* NanomsgSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* NanomsgSerializable.swift */; };
+		OBJ_67 /* Proto.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Proto.swift */; };
+		OBJ_68 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Socket.swift */; };
+		OBJ_69 /* SocketOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* SocketOption.swift */; };
+		OBJ_70 /* StringNanomsgSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* StringNanomsgSerializable.swift */; };
+		OBJ_71 /* Transport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Transport.swift */; };
+		OBJ_72 /* WSMsgType.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* WSMsgType.swift */; };
+		OBJ_73 /* util.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* util.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		497DC2791FAE2B2200FE51C5 /* PBXContainerItemProxy */ = {
+		49C69C661FB5F9F6000A685E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -40,39 +39,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		497DC27C1FAE34A800FE51C5 /* DeviceQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceQuery.swift; sourceTree = "<group>"; };
-		497DC27E1FAF592600FE51C5 /* IOReturnToString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOReturnToString.swift; sourceTree = "<group>"; };
-		497DC29C1FAF875300FE51C5 /* PacketLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketLogger.swift; sourceTree = "<group>"; };
-		497DC29E1FAFAB6800FE51C5 /* parseATCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parseATCommand.swift; sourceTree = "<group>"; };
 		"BatiDaemon::BatiDaemon::Product" /* BatiDaemon */ = {isa = PBXFileReference; lastKnownFileType = text; path = BatiDaemon; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Nanomsg::Nanomsg::Product" /* Nanomsg.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Nanomsg.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		OBJ_15 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
-		OBJ_16 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
-		OBJ_17 /* NanomsgError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanomsgError.swift; sourceTree = "<group>"; };
-		OBJ_18 /* NanomsgSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanomsgSerializable.swift; sourceTree = "<group>"; };
-		OBJ_19 /* Proto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proto.swift; sourceTree = "<group>"; };
-		OBJ_20 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
-		OBJ_21 /* SocketOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketOption.swift; sourceTree = "<group>"; };
-		OBJ_22 /* StringNanomsgSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringNanomsgSerializable.swift; sourceTree = "<group>"; };
-		OBJ_23 /* Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
-		OBJ_24 /* WSMsgType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSMsgType.swift; sourceTree = "<group>"; };
-		OBJ_25 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
-		OBJ_26 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Jari/Copy/www/BatiDaemon/.build/checkouts/Nanomsg.swift.git--5904968247301926843/Package.swift"; sourceTree = "<group>"; };
+		OBJ_10 /* PacketLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketLogger.swift; sourceTree = "<group>"; };
+		OBJ_11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_12 /* parseATCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parseATCommand.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Domain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
+		OBJ_20 /* NanomsgError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanomsgError.swift; sourceTree = "<group>"; };
+		OBJ_21 /* NanomsgSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NanomsgSerializable.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Proto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proto.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		OBJ_24 /* SocketOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketOption.swift; sourceTree = "<group>"; };
+		OBJ_25 /* StringNanomsgSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringNanomsgSerializable.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Transport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transport.swift; sourceTree = "<group>"; };
+		OBJ_27 /* WSMsgType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSMsgType.swift; sourceTree = "<group>"; };
+		OBJ_28 /* util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = util.swift; sourceTree = "<group>"; };
+		OBJ_29 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/Jari/Copy/www/BatiDaemon/.build/checkouts/Nanomsg.swift.git--5904968247301926843/Package.swift"; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		OBJ_9 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		OBJ_9 /* IOReturnToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOReturnToString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_48 /* Frameworks */ = {
+		OBJ_54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_49 /* Nanomsg.framework in Frameworks */,
+				OBJ_55 /* Nanomsg.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_68 /* Frameworks */ = {
+		OBJ_74 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -82,51 +80,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		OBJ_10 /* Tests */ = {
+		OBJ_13 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Tests;
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_11 /* Dependencies */ = {
+		OBJ_14 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_12 /* Nanomsg 0.4.0 */,
+				OBJ_15 /* Nanomsg 0.4.0 */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		OBJ_12 /* Nanomsg 0.4.0 */ = {
+		OBJ_15 /* Nanomsg 0.4.0 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_13 /* Nanomsg */,
-				OBJ_26 /* Package.swift */,
+				OBJ_16 /* Nanomsg */,
+				OBJ_29 /* Package.swift */,
 			);
 			name = "Nanomsg 0.4.0";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_13 /* Nanomsg */ = {
+		OBJ_16 /* Nanomsg */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_14 /* Constants.swift */,
-				OBJ_15 /* Domain.swift */,
-				OBJ_16 /* Flags.swift */,
-				OBJ_17 /* NanomsgError.swift */,
-				OBJ_18 /* NanomsgSerializable.swift */,
-				OBJ_19 /* Proto.swift */,
-				OBJ_20 /* Socket.swift */,
-				OBJ_21 /* SocketOption.swift */,
-				OBJ_22 /* StringNanomsgSerializable.swift */,
-				OBJ_23 /* Transport.swift */,
-				OBJ_24 /* WSMsgType.swift */,
-				OBJ_25 /* util.swift */,
+				OBJ_17 /* Constants.swift */,
+				OBJ_18 /* Domain.swift */,
+				OBJ_19 /* Flags.swift */,
+				OBJ_20 /* NanomsgError.swift */,
+				OBJ_21 /* NanomsgSerializable.swift */,
+				OBJ_22 /* Proto.swift */,
+				OBJ_23 /* Socket.swift */,
+				OBJ_24 /* SocketOption.swift */,
+				OBJ_25 /* StringNanomsgSerializable.swift */,
+				OBJ_26 /* Transport.swift */,
+				OBJ_27 /* WSMsgType.swift */,
+				OBJ_28 /* util.swift */,
 			);
 			name = Nanomsg;
 			path = ".build/checkouts/Nanomsg.swift.git--5904968247301926843/Sources/Nanomsg";
 			sourceTree = SOURCE_ROOT;
 		};
-		OBJ_27 /* Products */ = {
+		OBJ_30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				"BatiDaemon::BatiDaemon::Product" /* BatiDaemon */,
@@ -140,9 +138,9 @@
 			children = (
 				OBJ_6 /* Package.swift */,
 				OBJ_7 /* Sources */,
-				OBJ_10 /* Tests */,
-				OBJ_11 /* Dependencies */,
-				OBJ_27 /* Products */,
+				OBJ_13 /* Tests */,
+				OBJ_14 /* Dependencies */,
+				OBJ_30 /* Products */,
 			);
 			name = "";
 			sourceTree = "<group>";
@@ -158,11 +156,10 @@
 		OBJ_8 /* BatiDaemon */ = {
 			isa = PBXGroup;
 			children = (
-				497DC27E1FAF592600FE51C5 /* IOReturnToString.swift */,
-				OBJ_9 /* main.swift */,
-				497DC27C1FAE34A800FE51C5 /* DeviceQuery.swift */,
-				497DC29C1FAF875300FE51C5 /* PacketLogger.swift */,
-				497DC29E1FAFAB6800FE51C5 /* parseATCommand.swift */,
+				OBJ_9 /* IOReturnToString.swift */,
+				OBJ_10 /* PacketLogger.swift */,
+				OBJ_11 /* main.swift */,
+				OBJ_12 /* parseATCommand.swift */,
 			);
 			name = BatiDaemon;
 			path = Sources/BatiDaemon;
@@ -173,15 +170,15 @@
 /* Begin PBXNativeTarget section */
 		"BatiDaemon::BatiDaemon" /* BatiDaemon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_43 /* Build configuration list for PBXNativeTarget "BatiDaemon" */;
+			buildConfigurationList = OBJ_46 /* Build configuration list for PBXNativeTarget "BatiDaemon" */;
 			buildPhases = (
-				OBJ_46 /* Sources */,
-				OBJ_48 /* Frameworks */,
+				OBJ_49 /* Sources */,
+				OBJ_54 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_50 /* PBXTargetDependency */,
+				OBJ_56 /* PBXTargetDependency */,
 			);
 			name = BatiDaemon;
 			productName = BatiDaemon;
@@ -190,9 +187,9 @@
 		};
 		"BatiDaemon::SwiftPMPackageDescription" /* BatiDaemonPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_31 /* Build configuration list for PBXNativeTarget "BatiDaemonPackageDescription" */;
+			buildConfigurationList = OBJ_34 /* Build configuration list for PBXNativeTarget "BatiDaemonPackageDescription" */;
 			buildPhases = (
-				OBJ_34 /* Sources */,
+				OBJ_37 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -204,10 +201,10 @@
 		};
 		"Nanomsg::Nanomsg" /* Nanomsg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_52 /* Build configuration list for PBXNativeTarget "Nanomsg" */;
+			buildConfigurationList = OBJ_58 /* Build configuration list for PBXNativeTarget "Nanomsg" */;
 			buildPhases = (
-				OBJ_55 /* Sources */,
-				OBJ_68 /* Frameworks */,
+				OBJ_61 /* Sources */,
+				OBJ_74 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,9 +217,9 @@
 		};
 		"Nanomsg::SwiftPMPackageDescription" /* NanomsgPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "NanomsgPackageDescription" */;
+			buildConfigurationList = OBJ_40 /* Build configuration list for PBXNativeTarget "NanomsgPackageDescription" */;
 			buildPhases = (
-				OBJ_40 /* Sources */,
+				OBJ_43 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -248,7 +245,7 @@
 				en,
 			);
 			mainGroup = OBJ_5 /*  */;
-			productRefGroup = OBJ_27 /* Products */;
+			productRefGroup = OBJ_30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -261,60 +258,59 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		OBJ_34 /* Sources */ = {
+		OBJ_37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_35 /* Package.swift in Sources */,
+				OBJ_38 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_40 /* Sources */ = {
+		OBJ_43 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_41 /* Package.swift in Sources */,
+				OBJ_44 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_46 /* Sources */ = {
+		OBJ_49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				497DC27F1FAF592600FE51C5 /* IOReturnToString.swift in Sources */,
-				497DC29F1FAFAB6800FE51C5 /* parseATCommand.swift in Sources */,
-				497DC29D1FAF875300FE51C5 /* PacketLogger.swift in Sources */,
-				497DC27D1FAE34A800FE51C5 /* DeviceQuery.swift in Sources */,
-				OBJ_47 /* main.swift in Sources */,
+				OBJ_50 /* IOReturnToString.swift in Sources */,
+				OBJ_51 /* PacketLogger.swift in Sources */,
+				OBJ_52 /* main.swift in Sources */,
+				OBJ_53 /* parseATCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_55 /* Sources */ = {
+		OBJ_61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_56 /* Constants.swift in Sources */,
-				OBJ_57 /* Domain.swift in Sources */,
-				OBJ_58 /* Flags.swift in Sources */,
-				OBJ_59 /* NanomsgError.swift in Sources */,
-				OBJ_60 /* NanomsgSerializable.swift in Sources */,
-				OBJ_61 /* Proto.swift in Sources */,
-				OBJ_62 /* Socket.swift in Sources */,
-				OBJ_63 /* SocketOption.swift in Sources */,
-				OBJ_64 /* StringNanomsgSerializable.swift in Sources */,
-				OBJ_65 /* Transport.swift in Sources */,
-				OBJ_66 /* WSMsgType.swift in Sources */,
-				OBJ_67 /* util.swift in Sources */,
+				OBJ_62 /* Constants.swift in Sources */,
+				OBJ_63 /* Domain.swift in Sources */,
+				OBJ_64 /* Flags.swift in Sources */,
+				OBJ_65 /* NanomsgError.swift in Sources */,
+				OBJ_66 /* NanomsgSerializable.swift in Sources */,
+				OBJ_67 /* Proto.swift in Sources */,
+				OBJ_68 /* Socket.swift in Sources */,
+				OBJ_69 /* SocketOption.swift in Sources */,
+				OBJ_70 /* StringNanomsgSerializable.swift in Sources */,
+				OBJ_71 /* Transport.swift in Sources */,
+				OBJ_72 /* WSMsgType.swift in Sources */,
+				OBJ_73 /* util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_50 /* PBXTargetDependency */ = {
+		OBJ_56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "Nanomsg::Nanomsg" /* Nanomsg */;
-			targetProxy = 497DC2791FAE2B2200FE51C5 /* PBXContainerItemProxy */;
+			targetProxy = 49C69C661FB5F9F6000A685E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -329,7 +325,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,7 +337,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_32 /* Debug */ = {
+		OBJ_35 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
@@ -350,30 +346,12 @@
 			};
 			name = Debug;
 		};
-		OBJ_33 /* Release */ = {
+		OBJ_36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				LD = /usr/bin/true;
 				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		OBJ_38 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		OBJ_39 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -386,7 +364,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_OPTIMIZATION_LEVEL = s;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -397,7 +375,25 @@
 			};
 			name = Release;
 		};
-		OBJ_44 /* Debug */ = {
+		OBJ_41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		OBJ_42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 3 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/3 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		OBJ_47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -423,7 +419,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_45 /* Release */ = {
+		OBJ_48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -449,7 +445,7 @@
 			};
 			name = Release;
 		};
-		OBJ_53 /* Debug */ = {
+		OBJ_59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -478,7 +474,7 @@
 			};
 			name = Debug;
 		};
-		OBJ_54 /* Release */ = {
+		OBJ_60 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -519,38 +515,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_31 /* Build configuration list for PBXNativeTarget "BatiDaemonPackageDescription" */ = {
+		OBJ_34 /* Build configuration list for PBXNativeTarget "BatiDaemonPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_32 /* Debug */,
-				OBJ_33 /* Release */,
+				OBJ_35 /* Debug */,
+				OBJ_36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_37 /* Build configuration list for PBXNativeTarget "NanomsgPackageDescription" */ = {
+		OBJ_40 /* Build configuration list for PBXNativeTarget "NanomsgPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_38 /* Debug */,
-				OBJ_39 /* Release */,
+				OBJ_41 /* Debug */,
+				OBJ_42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_43 /* Build configuration list for PBXNativeTarget "BatiDaemon" */ = {
+		OBJ_46 /* Build configuration list for PBXNativeTarget "BatiDaemon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_44 /* Debug */,
-				OBJ_45 /* Release */,
+				OBJ_47 /* Debug */,
+				OBJ_48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_52 /* Build configuration list for PBXNativeTarget "Nanomsg" */ = {
+		OBJ_58 /* Build configuration list for PBXNativeTarget "Nanomsg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_53 /* Debug */,
-				OBJ_54 /* Release */,
+				OBJ_59 /* Debug */,
+				OBJ_60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
