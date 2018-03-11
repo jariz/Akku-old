@@ -36,7 +36,7 @@ class StatusMenuController: NSObject {
         
         guard devices.count != 0 else {
             menu.addItem(withTitle: "No connected handsfree devices.", action: nil, keyEquivalent: "")
-            statusItem.button!.image = NSImage(named: NSImage.Name("batti_noconnect"))
+            statusItem.button!.image = NSImage(named: NSImage.Name("akku_noconnect"))
             return
         }
         
@@ -47,10 +47,10 @@ class StatusMenuController: NSObject {
                 let batteryViewController = storyboard!.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier("ViewController")) as! ViewController
                 batteryViewController.setProgress(value: state)
                 batteryMenuItem.view = batteryViewController.view
-                statusItem.button!.image = NSImage(named: NSImage.Name("batti_" + rawState))
+                statusItem.button!.image = NSImage(named: NSImage.Name("akku_" + rawState))
             } else {
                 batteryMenuItem.title = "No reported battery state yet, try reconnecting."
-                statusItem.button!.image = NSImage(named: NSImage.Name("batti_noconnect"))
+                statusItem.button!.image = NSImage(named: NSImage.Name("akku_noconnect"))
             }
             menu.addItem(batteryMenuItem)
             
