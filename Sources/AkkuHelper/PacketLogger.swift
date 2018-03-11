@@ -12,13 +12,12 @@ class PacketLogger {
     var fileHandle: FileHandle
     let chunkSize = 4096
     var buffer: Data
-    var atEof: Bool = false
     var delimiter: Data = "\n".data(using: String.Encoding.utf8)!
     
     init () {
         process = Process()
-        process.launchPath = "/Users/Jari/Documents/packetlogger" // todo package packetlogger along with app
-        process.arguments = []
+        process.launchPath = "/bin/bash" // todo package packetlogger along with app
+        process.arguments = ["-c", "/Applications/PacketLogger.app/Contents/Resources/packetlogger convert -f tmpar -s > grep \"RFCOMM Receive\""]
         let pipe = Pipe()
         process.standardOutput = pipe
         process.launch()
@@ -33,7 +32,6 @@ class PacketLogger {
             }
         }
     }
-    
     
     func readLine () -> String? {
         while process.isRunning {

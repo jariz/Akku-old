@@ -43,7 +43,7 @@ func parseATCommand(_ command: String, address: String) throws {
             case "1": // battery
                 try daemon.batteryChange(percentage: (1 + Int(val)!) * 10, address: address)
             default:
-                throw "Unsupported key type \(key) with value \(val)"
+                throw "IPHONEACCEV: Unsupported key type \(key) with value \(val)"
             }
             
         case "CSRBATT": // this yields 0 results on google but i've seen a headset send it so...
